@@ -1,4 +1,4 @@
-using DataFrames
+using DataFrames # table
 showln(x) = (show(x); println())
 # TODO: needs more links to docs.
 
@@ -62,7 +62,7 @@ diamonds = load(joinpath(dirname(pathof(RDatasets)),"..","data","ggplot2","diamo
 # showing DataFrames
 # ------------------
 
-# Check the names and element types of the columns of our new DataFrame
+# Check the names and element atypes of the columns of our new DataFrame
 showln(names(iris))
 #> Symbol[:SepalLength, :SepalWidth, :PetalLength, :PetalWidth, :Species]
 showln(eltypes(iris))
