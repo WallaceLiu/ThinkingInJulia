@@ -10,6 +10,8 @@ x = 1 + 1
 # You can assign values of other types, like strings of text
 x = "Hello World!"
 
+# Variable names are case-sensitive, 
+# and have no semantic meaning (that is, the language will not treat variables differently based on their names).
 x = 1.0
 
 y = -3
@@ -24,3 +26,10 @@ UniversalDeclarationOfHumanRightsStart = "人人生而自由，在尊严和权�
 δ = 0.00001
 
 안녕하세요 = "Hello"
+
+# 
+pi = 3
+
+pi
+
+sqrt = 4
