@@ -1,4 +1,4 @@
-fname = "simple.dat"
+fname = "src/simple.dat"
 # using [do](https://docs.julialang.org/en/v1/manual/functions/#Do-Block-Syntax-for-Function-Arguments-1) means the file is closed automatically
 # in the same way "with" does in python
 open(fname,"r") do f
