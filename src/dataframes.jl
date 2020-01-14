@@ -49,11 +49,11 @@ showln(df[1:2, :])
 using CSV
 
 # DataFrames can be loaded from CSV files using CSV.read()
-iris = CSV.read("iris.csv")
+iris = CSV.read("src/iris.csv")
 
 # the iris dataset (and plenty of others) is also available from
 using RData, RDatasets
-iris = dataset("datasets","iris")
+iris = dataset("datasets","irisa")
 
 # you can directly import your own R .rda dataframe with
 # mydf = load("path/to/your/df.rda")["name_of_df"], e.g.
